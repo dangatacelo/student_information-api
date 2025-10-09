@@ -24,3 +24,19 @@ Route::put('/instructors/{id}', [App\Http\Controllers\InstructorController::clas
 //delete instructor
 Route::delete('/instructors/{id}', [App\Http\Controllers\InstructorController::class, 'destroy']);
 
+
+//get all courses
+Route::get('/courses', [App\Http\Controllers\CourseController::class, 'index']);
+
+//get single course
+Route::get('/courses/{id}', [App\Http\Controllers\CourseController::class, 'show']);
+
+//create course 
+Route::post('/courses', [App\Http\Controllers\CourseController::class, 'store']);
+
+//update course
+Route::put('/courses/{id}', [App\Http\Controllers\CourseController::class, 'update']);
+
+//delete course
+Route::delete('/courses/{id}', [App\Http\Controllers\CourseController::class, 'destroy']);
+
