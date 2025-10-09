@@ -26,6 +26,9 @@ class DatabaseSeeder extends Seeder
         'phone_number' => '123-456-7890',
         ]);
 
-        $this->call(InstructorSeeder::class);
+        $this->call([
+            InstructorSeeder::class,
+            CourseSeeder::class
+        ]);
     } 
 }
