@@ -29,9 +29,7 @@ ROLE:
         - API endpoint specification document
         - Data dictionary for response/request structures
         - Edge case scenarios
-        
-
-
+  
     JOBELLE GOLPEO & JOSHUA CATIPON - Quality Assurance Tester
        Contributions:
         - Load test with 100 concurrent users
