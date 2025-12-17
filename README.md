@@ -2,6 +2,7 @@ student_information-api
 BSIT 4-4
 
 ROLE:
+
     RINA H. GERONIMO - Project Manager
      Contributions:
     - Conduct sprint planning meeting with all roles
